@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useSelector, UseSelector } from "react-redux";
 import { TaskList } from "./components/TaskList";
 import { InputComponent } from "./components/InputComponent";
-import { tododata } from "./datasource/constants";
 import "./styles.css";
 
 export default function App() {
@@ -18,7 +17,7 @@ export default function App() {
 
   //================================================
 
-  const onSelectFilter = (filterlist: any[]) => {
+  const onSelectFilter = (filterlist: any) => {
     setList(filterlist);
   };
 
