@@ -1,0 +1,36 @@
+.task_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.task_checkbox_container {
+  width: 10%;
+}
+
+.task_checkbox:checked {
+  background-color: cadetblue; /* Green when checked */
+  border-color: cadetblue;
+}
+
+.task_text {
+  width: 30%;
+}
+
+.task_text.Pending {
+  color: orange;
+}
+
+.task_text.Completed {
+  color: green;
+}
+
+.task_btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  margin-left: 12px;
+}

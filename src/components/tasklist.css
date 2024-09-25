@@ -1,0 +1,15 @@
+.tasklist_parent {
+  width: 90%;
+  height: 100%;
+  padding: 12px;
+}
+
+.tasklist_parent .task_item {
+  padding: 8px;
+}
+
+.tasklist_parent .no_task {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

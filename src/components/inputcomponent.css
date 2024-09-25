@@ -1,0 +1,31 @@
+.taskinput_container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.taskadd_btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  margin-left: 12px;
+}
+
+.taskinput_box {
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  color: black;
+  margin-left: 12px;
+}
+
+.taskinput_dropdown {
+  width: 120px;
+  height: 40px;
+  border-radius: 6px;
+  color: black;
+  margin-left: 12px;
+}
